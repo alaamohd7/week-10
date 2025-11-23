@@ -1,23 +1,11 @@
-.options {
-  display: none;        
-  background: grey;     
-  padding: 4px;         
+.hover {     
+  padding: 12px;
+  background: red;
+  color: white;
 }
+.hover: hover{
+  background: darkgreen;
+  transform: scale(1.2);
+}
+  
 
-.dropdown:hover .options {
-  display: block;      
-}
-
-.options a {
-  display: block;       
-  padding: 5px;        
-  text-decoration: none;
-  color: black;
-}
-.zoomimage {
-  transition: 0.5s;       
-}
-
-.zoomimage:hover {
-  transform: scale(1.2);   
-}
